@@ -1,0 +1,68 @@
+@import url(https://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+     background-color:#ddd;
+     text-align:center;
+     font-family: 'Droid Arabic Kufi', sans-serif;  
+}
+
+
+
+
+/*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
+#main {
+    margin-top: 60px;
+    padding: 20px 30px;
+    transition: all 0.3s;
+}
+
+@media (max-width: 1199px) {
+    #main {
+        padding: 20px;
+    }
+}
+
+/*--------------------------------------------------------------
+# Page Title
+--------------------------------------------------------------*/
+.pagetitle {
+    margin-bottom: 10px;
+}
+
+.pagetitle h1 {
+    font-size: 24px;
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #012970;
+}  
+
+  /* Card */
+.card {
+    margin-bottom: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.ver {
+    width: 100px;
+}
+.editer {
+    width: 115px;
+}
+.delete {
+    width: 125px;
+}
+
+tbody tr {
+    vertical-align: middle;
+}
+
